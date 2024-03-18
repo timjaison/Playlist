@@ -38,7 +38,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/timjaison/playlist/",
+  "homepage": "https://timjaison.github.io/playlist",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   }
