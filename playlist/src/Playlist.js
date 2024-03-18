@@ -22,7 +22,7 @@ import './playlist.css';
  
    // useEffect hook with Axios to fetch data from the server with the audio.json file
    useEffect(() => {
-    axios.get('/audio_tracks.json')
+    axios.get(process.env.PUBLIC_URL + '/audio_tracks.json')
       .then((response) => {
         console.log('Fetched data:', response.data);
         if (Array.isArray(response.data.tracks)) {
