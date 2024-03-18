@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/playlist.git/static/css/main.ce368c3c.css",
-    "main.js": "/playlist.git/static/js/main.befde0c0.js",
-    "static/js/453.2284d4dc.chunk.js": "/playlist.git/static/js/453.2284d4dc.chunk.js",
-    "index.html": "/playlist.git/index.html",
-    "main.ce368c3c.css.map": "/playlist.git/static/css/main.ce368c3c.css.map",
-    "main.befde0c0.js.map": "/playlist.git/static/js/main.befde0c0.js.map",
-    "453.2284d4dc.chunk.js.map": "/playlist.git/static/js/453.2284d4dc.chunk.js.map"
+    "main.css": "/timjaison/playlist/static/css/main.ce368c3c.css",
+    "main.js": "/timjaison/playlist/static/js/main.74b23c70.js",
+    "static/js/453.2284d4dc.chunk.js": "/timjaison/playlist/static/js/453.2284d4dc.chunk.js",
+    "index.html": "/timjaison/playlist/index.html",
+    "main.ce368c3c.css.map": "/timjaison/playlist/static/css/main.ce368c3c.css.map",
+    "main.74b23c70.js.map": "/timjaison/playlist/static/js/main.74b23c70.js.map",
+    "453.2284d4dc.chunk.js.map": "/timjaison/playlist/static/js/453.2284d4dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce368c3c.css",
-    "static/js/main.befde0c0.js"
+    "static/js/main.74b23c70.js"
   ]
 }
