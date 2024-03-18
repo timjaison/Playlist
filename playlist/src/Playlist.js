@@ -22,15 +22,20 @@ import './playlist.css';
  
    // useEffect hook with Axios to fetch data from the server with the audio.json file
    useEffect(() => {
-     axios.get('http://localhost:3000/tracks')
-       .then((response) => {
-        //console.log(response);
-         setAudioData(response.data);
-       })
-       .catch((error) => {
-         console.log(error);
-       });
-   }, []); 
+    axios.get('/audio_tracks.json')
+      .then((response) => {
+        console.log('Fetched data:', response.data);
+        if (Array.isArray(response.data.tracks)) {
+          setAudioData(response.data.tracks);
+        } else {
+          console.error('Fetched data does not contain an array:', response.data);
+        }
+      })
+      .catch((error) => {
+        console.error('Error fetching JSON:', error);
+      });
+  }, []);
+
  
    // Handling for double-clicking an audio item (song or podcast)
    const handleDoubleClick = (audioTitle, isPodcast, episodeTitle) => {
